@@ -1,0 +1,7 @@
+# app-ads.txt placeholder for walid-aourir/MyApp-Legal
+# Replace the following example lines with the exact ad network declarations provided by your ad partners.
+# Example format:
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+
+# REPLACE OR ADD LINES BELOW:
+# (No ad-relationship lines provided yet — please paste your app-ads.txt lines here.)

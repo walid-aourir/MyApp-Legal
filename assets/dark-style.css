@@ -1,0 +1,36 @@
+/* Dark premium styles: charcoal background, off-white cards, gold accent, Lexend font */
+:root{
+  --bg:#0b0f12; /* charcoal */
+  --card:#fbfaf8; /* off-white card */
+  --muted:#8b8b90;
+  --gold:#b8912b; /* gold accent */
+  --text:#0b0f12; /* dark text on cards */
+  --radius:14px;
+  --max-width:920px;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{font-family:Lexend,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial,sans-serif;margin:0;background:var(--bg);color:var(--card);-webkit-font-smoothing:antialiased}
+.container{max-width:var(--max-width);margin:40px auto;padding:0 20px}
+.site-header{background:transparent;padding:22px 0;color:var(--card);border-bottom:1px solid rgba(255,255,255,0.03)}
+.site-header .container{display:flex;align-items:center;justify-content:space-between}
+.brand{font-weight:700;margin:0;font-size:20px;color:var(--card)}
+.brand-wrap{display:flex;flex-direction:column}
+.tag{margin:6px 0 0;color:rgba(255,255,255,0.6);font-size:13px}
+.brand-link{color:var(--card);text-decoration:none;font-weight:600}
+.nav a{color:rgba(255,255,255,0.85);text-decoration:none;margin-left:18px;font-weight:600}
+.nav.small a{margin-left:12px}
+.card{background:var(--card);color:var(--text);padding:32px;border-radius:var(--radius);box-shadow:0 10px 30px rgba(2,6,23,0.6);margin-bottom:20px}
+.hero{display:block}
+.hero-title{font-size:28px;margin:0 0 8px}
+.hero-lead{color:var(--muted);margin:0 0 18px}
+.actions{margin-top:18px;display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:10px 16px;border-radius:10px;text-decoration:none;font-weight:700}
+.btn.primary{background:var(--gold);color:var(--bg)}
+.btn.outline{background:transparent;color:var(--gold);border:1px solid rgba(184,145,43,0.12)}
+.btn:not(.outline){box-shadow:0 6px 18px rgba(184,145,43,0.12)}
+.muted{color:var(--muted)}
+.info ul{padding-left:1.15rem}
+.gold-link{color:var(--gold);font-weight:600;text-decoration:none}
+.site-footer{padding:24px 0;color:rgba(255,255,255,0.65);text-align:center}
+@media (max-width:720px){.container{margin:20px auto;padding:0 16px}.site-header .container{flex-direction:column;align-items:flex-start}.nav{margin-top:12px}.card{padding:20px}.hero-title{font-size:22px}}

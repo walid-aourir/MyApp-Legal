@@ -4,4 +4,4 @@
 # google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
 
 # REPLACE OR ADD LINES BELOW:
-# (No ad-relationship lines provided yet — please paste your app-ads.txt lines here.)
+google.com, pub-8674393465032299, DIRECT, f08c47fec0942fa0
